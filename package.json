@@ -1,6 +1,6 @@
 {
   "name": "react-piano-keys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Handle any hotkey in react",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dherault/react-press.git"
+    "url": "git+https://github.com/dherault/react-piano-keys.git"
   },
   "keywords": [
     "react",
@@ -22,9 +22,9 @@
   "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dherault/react-press/issues"
+    "url": "https://github.com/dherault/react-piano-keys/issues"
   },
-  "homepage": "https://github.com/dherault/react-press#readme",
+  "homepage": "https://github.com/dherault/react-piano-keys#readme",
   "dependencies": {
     "piano-keys": "^2.0.5"
   },
