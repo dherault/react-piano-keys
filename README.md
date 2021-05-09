@@ -46,6 +46,10 @@ function MyOtherCoolComponent() {
 Available descriptors:
 `ctrl shift alt altgr cmd enter tab space backspace escape capslock up down left right plus contextmenu delete insert pause home end numlock`
 
+## Usage with vanilla JavaScript
+
+Checkout [piano-keys](https://www.npmjs.com/package/piano-keys).
+
 ## Contributing
 
 Yes, thank you.
