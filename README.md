@@ -30,7 +30,7 @@ function MyCoolComponent() {
 import { useRef } from 'react'
 import useKeys from 'react-piano-keys'
 
-function MyOtherCoolComponent() {
+function MyCoolComponent() {
   const divRef = useRef()
 
   useKeys(divRef.current, 'up up down down left right left right b a', () => console.log('konami code!'))
