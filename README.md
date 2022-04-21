@@ -28,6 +28,9 @@ function MyComponent() {
   )
 }
 ```
+
+If you use a ref, do not forget to use `tabIndex={x}` to make the component focusable.
+
 ```jsx
 import { useRef } from 'react'
 import useKeys from 'react-piano-keys'
@@ -38,7 +41,7 @@ function MyComponent() {
   useKeys(divRef.current, 'up up down down left right left right b a', () => console.log('konami code!'))
 
   return (
-    <div ref={divRef}>
+    <div ref={divRef} tabIndex={0}>
       What could the code be?
     </div>
   )
