@@ -5,6 +5,8 @@
 
 A React hotkeys librairy in less than 4KB.
 
+Checkout the [demo](https://dherault.github.io/piano-keys/)!
+
 ## Installation
 
 ```
@@ -16,7 +18,7 @@ npm install --save react-piano-keys
 ```jsx
 import useKeys from 'react-piano-keys'
 
-function MyCoolComponent() {
+function MyComponent() {
   useKeys(window, 'cmd+b', () => console.log('bold!'))
 
   return (
@@ -30,7 +32,7 @@ function MyCoolComponent() {
 import { useRef } from 'react'
 import useKeys from 'react-piano-keys'
 
-function MyCoolComponent() {
+function MyComponent() {
   const divRef = useRef()
 
   useKeys(divRef.current, 'up up down down left right left right b a', () => console.log('konami code!'))
